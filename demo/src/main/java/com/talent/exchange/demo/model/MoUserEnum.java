@@ -1,0 +1,44 @@
+package com.talent.exchange.demo.model;
+
+public class MoUserEnum {
+	public enum USER_TYPE {
+		FAN, INVESTOR, TALENT, ARTIST, SUPER_USER
+	}
+
+	public enum GENDER {
+		M, F, O
+	}
+
+	public enum USER_ACCOUNT_STATUS {
+		ACTIVE, SUSPEND, CLOSE
+	}
+
+	public enum DEVICE_PLATFORM {
+		IOS, ANDROID
+	}
+
+	public enum USER_ACTIVITY_TYPE {
+		LOGIN, LOGOUT, INVALID_LOGIN
+	}
+
+	public enum SOCIAL_PLATFORM {
+		FACEBOOK, TWITTER, INSTAGRAM, IMDB, SNAPCHAT
+	}
+	
+	public enum ADDRESS_TYPE {
+		MAILING, SHIPPING, BILLING
+	}
+	
+	public enum APPROVAL_STATUS {
+		PENDING, APPROVED, REJECTED
+	}
+		
+	public enum VIDEO_CATEGORY {
+		ACTION,COMEDY,DOCUMENTARY,DRAMA,HORROR,MYSTERY,REALITY,ROMANCE,THRILLER		
+	}
+	
+	public enum MEDIA_CATEGORY{
+		IMAGE, VIDEO, LIVE_STREAMING
+	}
+	
+}
